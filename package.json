@@ -1,0 +1,15 @@
+{
+  "name": "kelompok_5",
+  "version": "1.0.0",
+  "description": "TugasUts",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cypress:open": "cypress open"
+  },
+  "author": "RezaWikiOktaNoorrFajar",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^8.7.0"
+  }
+}

@@ -10,8 +10,8 @@ describe('Checkout', () => {
         cy.get('[data-test=product_sort_container]').select('za')
         cy.get('.shopping_cart_link').click()
         cy.get('#checkout').click()
-        cy.get('#first-name').type('Dwi Nur')
-        cy.get('#last-name').type('Oktaviani')
+        cy.get('#first-name').type('Wahyu')
+        cy.get('#last-name').type('Fajar')
         cy.get('#postal-code').type('67272')
         cy.get('#continue').click()
         

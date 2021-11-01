@@ -38,6 +38,6 @@ context('Testing side bar 1941720230_MuhammadRezaPahlevi', () => {
     cy.get(`#react-burger-menu-btn`).should('be.visible').click();
     cy.get(`#reset_sidebar_link`).should('be.visible').click();
     cy.get(`#shopping_cart_container`).should('be.visible').click();
-    cy.get(`cart_quantity`).should('1');
+    cy.get('#item_4_title_link').should('not.exist');
   })
 })
